@@ -1,0 +1,9 @@
+1. Business requirements - req around 1 business capabiity
+2. Funtional Autonomy - max functionality does not involve other business req
+3. Data entities - Service is desiged around well specified data entities. Relationship with ids with other system
+4. Data autonomy - underying data is automatic unit and not depend on other service for every call
+
+Three approaches for edge case
+1. Data duplication
+2. Service query
+3. Aggregation service
